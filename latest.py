@@ -112,6 +112,7 @@ industry_list = ["Real Estate Developer",
                  "Airport",
                  "Family Resort",
                  "Consulting",
+                 "Time shared resort"
                  ]
 
 for i in range(2, lastRow + 1):
