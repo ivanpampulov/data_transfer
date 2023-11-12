@@ -18,11 +18,11 @@ targetSheet = targetWorkbook.active
 lastRow = sourceSheet.max_row
 
 # Set the ranges for data in the source sheet
-sourceDataFirstName = sourceSheet['A2:A' + str(lastRow)] #first name
-sourceDataLastName = sourceSheet['B2:B' + str(lastRow)] #last name
-sourceDataCompanyName = sourceSheet['D2:D' + str(lastRow)] #company name
-sourceDataEmail = sourceSheet['F2:F' + str(lastRow)] #email
-sourceDataCountry = sourceSheet['AF2:AF' + str(lastRow)] #country
+sourceDataFirstName = sourceSheet['A2:A' + str(lastRow)]
+sourceDataLastName = sourceSheet['B2:B' + str(lastRow)]
+sourceDataCompanyName = sourceSheet['D2:D' + str(lastRow)]
+sourceDataEmail = sourceSheet['F2:F' + str(lastRow)]
+sourceDataCountry = sourceSheet['AF2:AF' + str(lastRow)]
 sourceDataMobile = sourceSheet['L2:L' + str(lastRow)]
 sourceDataDescription = sourceSheet['X2:X' + str(lastRow)]
 sourceDataWebsite = sourceSheet['Z2:Z' + str(lastRow)]
