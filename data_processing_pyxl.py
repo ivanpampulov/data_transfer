@@ -43,7 +43,7 @@ targetSheet.append([
 for i in range(2, lastRow + 1):
     targetSheet.append([
         sourceDataFirstName[i - 2][0].value, sourceDataLastName[i - 2][0].value, sourceDataCompanyName[i - 2][0].value,
-        "", "", "Fun Walls, Ropes Course, Rollglider, Adventure Trail, Caving, Cloud Climb, Zip Line, Ninja Course, Tree Course, Slides",
+        "", "", "Fun Walls, Ropes Course, RollGlider, Adventure Trail, Caving, Cloud Climb, Zip Line, Ninja Course, Tree Course, Slides",
         sourceDataCountry[i - 2][0].value, "Active Entertainment", sourceDataEmail[i - 2][0].value,
         sourceDataMobile[i - 2][0].value, sourceDataDescription[i - 2][0].value, "", sourceDataWebsite[i - 2][0].value, "LinkedIn", sourceDataPLinkedIn[i - 2][0].value,
         "", sourceDataCLinkedIn[i - 2][0].value, sourceDataIndustry[i - 2][0].value, "I first contacted client", "", "", "",
